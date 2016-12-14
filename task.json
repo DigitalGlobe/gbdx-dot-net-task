@@ -18,12 +18,12 @@
       "type": "DOCKER",
       "command": "",
       "properties": {
-        "image": "tdgp/test-success-dot-net"
+        "image": "<your-repo-location>"
       }
     }
   ],
   "description": "Runs a no-op task that writes successful output status.",
-  "name": "test-success-dot-net",
+  "name": "<your task name>",
   "properties": {
     "isPublic": false,
     "timeout": 7200
